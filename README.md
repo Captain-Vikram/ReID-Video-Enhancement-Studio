@@ -51,169 +51,65 @@
 
 ---
 
-## 🚀 **Key Features**
+## 🚀 Key Features
 
-<div align="center">
-
-<table width="100%">
-<tr>
-<td width="33%" align="center">
-<img src="https://via.placeholder.com/80x80/667eea/ffffff?text=🎯" style="border-radius: 50%;"/>
-<h4>Multi-Modal Detection</h4>
-<p>Advanced YOLOv11 + feature fusion for robust player identification across camera angles</p>
-</td>
-<td width="33%" align="center">
-<img src="https://via.placeholder.com/80x80/f093fb/ffffff?text=📈" style="border-radius: 50%;"/>
-<h4>Kalman Tracking</h4>
-<p>Smooth motion prediction and jitter-free bounding boxes with professional quality</p>
-</td>
-<td width="33%" align="center">
-<img src="https://via.placeholder.com/80x80/43e97b/ffffff?text=🎬" style="border-radius: 50%;"/>
-<h4>Broadcast Ready</h4>
-<p>Professional annotations with consistent global IDs and smooth tracking visualization</p>
-</td>
-</tr>
-</table>
-
-</div>
+- **🎯 Multi-Modal Detection** - Advanced YOLOv11 + feature fusion for robust player identification across camera angles
+- **📈 Kalman Tracking** - Smooth motion prediction and jitter-free bounding boxes with professional quality  
+- **🎬 Broadcast Ready** - Professional annotations with consistent global IDs and smooth tracking visualization
 
 ---
 
-## 🎥 **Input Sources**
+## 🎥 Input Sources
 
-<div align="center">
+### 🎬 Broadcast Camera
+![Broadcast Camera](gifs/broadcast_input.gif)
 
-<table width="100%">
-<tr>
-<td width="50%" align="center">
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; color: white; margin: 10px;">
-<h3>🎬 Broadcast Camera</h3>
-<img src="gifs/broadcast_input.gif" alt="Broadcast Camera" width="90%" style="border-radius: 10px; margin: 10px 0;" autoplay loop muted/>
-<p><strong>Wide-angle perspective</strong><br>Full field coverage • Multiple players visible</p>
-<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
-<img src="https://img.shields.io/badge/📹_Download-Broadcast_Feed-ffffff?style=flat-square&logo=video" alt="Download Broadcast"/>
-</a>
-</div>
-</td>
-<td width="50%" align="center">
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 15px; color: white; margin: 10px;">
-<h3>📷 Tactical Camera</h3>
-<img src="gifs/tacticam_input.gif" alt="Tactical Camera" width="90%" style="border-radius: 10px; margin: 10px 0;" autoplay loop muted/>
-<p><strong>Close-up tactical view</strong><br>Detailed movements • Strategic analysis</p>
-<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/tacticam.mp4">
-<img src="https://img.shields.io/badge/📹_Download-Tactical_Feed-ffffff?style=flat-square&logo=video" alt="Download Tactical"/>
-</a>
-</div>
-</td>
-</tr>
-</table>
+**Wide-angle perspective** - Full field coverage • Multiple players visible
 
-</div>
+[📹 Download Broadcast Feed](https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4)
+
+### 📷 Tactical Camera  
+![Tactical Camera](gifs/tacticam_input.gif)
+
+**Close-up tactical view** - Detailed movements • Strategic analysis
+
+[📹 Download Tactical Feed](https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/tacticam.mp4)
 
 ---
 
-## ✨ **Enhancement Results**
+## ✨ Enhancement Results
 
-<div align="center">
+### 🎯 Professional Quality Output
 
-### 🎯 **Professional Quality Output**
+![Professional Enhanced Result](gifs/broadcast_enhanced_professional.gif)
 
-<div style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%); padding: 30px; border-radius: 20px; margin: 20px 0;">
+[🎥 Download Enhanced Video](https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4)
 
-<img src="gifs/broadcast_enhanced_professional.gif" alt="Professional Enhanced Result" width="60%" style="border-radius: 15px; border: 4px solid #ffffff; box-shadow: 0 8px 16px rgba(0,0,0,0.2);" autoplay loop muted/>
+### 🔥 Key Improvements
 
-<br><br>
-
-<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
-<img src="https://img.shields.io/badge/🎥_Watch_Full_Video-Professional_Enhanced-dc3545?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Enhanced Video" width="300"/>
-</a>
-
-</div>
-
-### 🔥 **Key Improvements**
-
-<table width="90%" style="margin: 20px auto; border-collapse: collapse; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<thead style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
-<tr>
-<th style="padding: 15px; text-align: left;">🎯 Feature</th>
-<th style="padding: 15px; text-align: center;">❌ Before</th>
-<th style="padding: 15px; text-align: center;">✅ After</th>
-</tr>
-</thead>
-<tbody>
-<tr style="background-color: #f8f9fa;">
-<td style="padding: 12px; font-weight: bold;">🎯 Player Tracking</td>
-<td style="padding: 12px; text-align: center; color: #dc3545;">Inconsistent IDs</td>
-<td style="padding: 12px; text-align: center; color: #28a745; font-weight: bold;">Global ID Consistency</td>
-</tr>
-<tr style="background-color: #ffffff;">
-<td style="padding: 12px; font-weight: bold;">📈 Motion Smoothness</td>
-<td style="padding: 12px; text-align: center; color: #dc3545;">Jittery boxes</td>
-<td style="padding: 12px; text-align: center; color: #28a745; font-weight: bold;">Kalman Filtering</td>
-</tr>
-<tr style="background-color: #f8f9fa;">
-<td style="padding: 12px; font-weight: bold;">🎨 Visual Quality</td>
-<td style="padding: 12px; text-align: center; color: #dc3545;">Basic annotations</td>
-<td style="padding: 12px; text-align: center; color: #28a745; font-weight: bold;">Broadcast Styling</td>
-</tr>
-<tr style="background-color: #ffffff;">
-<td style="padding: 12px; font-weight: bold;">👥 Crowded Regions</td>
-<td style="padding: 12px; text-align: center; color: #dc3545;">ID confusion</td>
-<td style="padding: 12px; text-align: center; color: #28a745; font-weight: bold;">Smart Handling</td>
-</tr>
-</tbody>
-</table>
-
-</div>
+| 🎯 Feature | ❌ Before | ✅ After |
+|------------|-----------|----------|
+| 🎯 Player Tracking | Inconsistent IDs | Global ID Consistency |
+| 📈 Motion Smoothness | Jittery boxes | Kalman Filtering |
+| 🎨 Visual Quality | Basic annotations | Broadcast Styling |
+| 👥 Crowded Regions | ID confusion | Smart Handling |
 
 ---
 
-## 📊 **Performance Stats**
+## 📊 Performance Stats
 
-<div align="center">
-
-<table style="border: none; margin: 20px auto;">
-<tr>
-<td style="text-align: center; padding: 15px;">
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 15px; min-width: 120px;">
-<div style="font-size: 28px; font-weight: bold;">2</div>
-<div style="font-size: 14px;">Camera Angles</div>
-</div>
-</td>
-<td style="text-align: center; padding: 15px;">
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 15px; min-width: 120px;">
-<div style="font-size: 28px; font-weight: bold;">95%</div>
-<div style="font-size: 14px;">Detection Accuracy</div>
-</div>
-</td>
-<td style="text-align: center; padding: 15px;">
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 20px; border-radius: 15px; min-width: 120px;">
-<div style="font-size: 28px; font-weight: bold;">85%</div>
-<div style="font-size: 14px;">Cross-Camera Match</div>
-</div>
-</td>
-<td style="text-align: center; padding: 15px;">
-<div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white; padding: 20px; border-radius: 15px; min-width: 120px;">
-<div style="font-size: 28px; font-weight: bold;">30fps</div>
-<div style="font-size: 14px;">Processing Speed</div>
-</div>
-</td>
-</tr>
-</table>
-
-</div>
+- **2** Camera Angles
+- **95%** Detection Accuracy  
+- **85%** Cross-Camera Match
+- **30fps** Processing Speed
 
 ---
 
-## 🔧 **Quick Setup**
+## 🔧 Quick Setup
 
-<div align="center">
+### 🎬 GUI Application (Recommended)
 
-### 🎬 **GUI Application** (Recommended)
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; color: white; margin: 20px 0; max-width: 600px;">
-
-<h4>🚀 One-Click Launch</h4>
+**🚀 One-Click Launch**
 
 ```bash
 # Smart Launcher (Auto-installs dependencies)
@@ -226,11 +122,9 @@ start_gui.bat  # Double-click the file
 streamlit run app.py
 ```
 
-<p><strong>✨ Features:</strong> Upload videos • Configure enhancements • Real-time processing • Download results</p>
+**✨ Features:** Upload videos • Configure enhancements • Real-time processing • Download results
 
-</div>
-
-### ⚡ **Command Line Usage**
+### ⚡ Command Line Usage
 
 ```bash
 # Clone the repository
@@ -243,8 +137,6 @@ pip install -r requirements.txt
 # Run complete demo
 python demo_complete.py
 ```
-
-</div>
 
 ---
 
