@@ -15,7 +15,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
-<img src="thumbnails/broadcast_input.jpg" alt="Input Video" width="200" style="border-radius: 8px; border: 2px solid #0366d6;"/>
+<img src="gifs/broadcast_input.gif" alt="Input Video" width="200" style="border-radius: 8px; border: 2px solid #0366d6;"/>
 <br>
 <strong>🎬 Original Broadcast</strong>
 </a>
@@ -25,14 +25,14 @@
 </td>
 <td align="center">
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
-<img src="thumbnails/broadcast_enhanced.jpg" alt="Enhanced Video" width="200" style="border-radius: 8px; border: 2px solid #dc3545;"/>
+<img src="gifs/broadcast_enhanced_professional.gif" alt="Enhanced Video" width="200" style="border-radius: 8px; border: 2px solid #dc3545;"/>
 <br>
 <strong>✨ AI Enhanced</strong>
 </a>
 </td>
 </tr>
 </table>
-<p><em>Click the video thumbnails above to download and watch the transformation!</em></p>
+<p><em>Click the animated previews above to download and watch the full videos!</em></p>
 </div>
 
 </div>
@@ -100,7 +100,7 @@ python launch_gui.py
 <h4>🎬 Broadcast Camera View</h4>
 <div style="border: 3px solid #0366d6; border-radius: 12px; padding: 15px; background: linear-gradient(135deg, #f6f8fa 0%, #e1e5e9 100%);">
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
-<img src="thumbnails/broadcast_input.jpg" alt="Broadcast Camera Preview" width="280" style="border-radius: 8px; margin-bottom: 10px;"/>
+<img src="gifs/broadcast_input.gif" alt="Broadcast Camera Preview" width="280" style="border-radius: 8px; margin-bottom: 10px;"/>
 </a>
 <br>
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
@@ -115,7 +115,7 @@ python launch_gui.py
 <h4>📷 Tactical Camera View</h4>
 <div style="border: 3px solid #28a745; border-radius: 12px; padding: 15px; background: linear-gradient(135deg, #f6f8fa 0%, #e1e5e9 100%);">
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/tacticam.mp4">
-<img src="thumbnails/tacticam_input.jpg" alt="Tactical Camera Preview" width="280" style="border-radius: 8px; margin-bottom: 10px;"/>
+<img src="gifs/tacticam_input.gif" alt="Tactical Camera Preview" width="280" style="border-radius: 8px; margin-bottom: 10px;"/>
 </a>
 <br>
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/tacticam.mp4">
@@ -142,7 +142,7 @@ python launch_gui.py
 <div align="center">
 <div style="border: 3px solid #dc3545; border-radius: 12px; padding: 20px; background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%); max-width: 500px; margin: 0 auto;">
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
-<img src="thumbnails/broadcast_enhanced.jpg" alt="Enhanced Broadcast Preview" width="400" style="border-radius: 8px; margin-bottom: 15px;"/>
+<img src="gifs/broadcast_enhanced_professional.gif" alt="Enhanced Broadcast Preview" width="400" style="border-radius: 8px; margin-bottom: 15px;"/>
 </a>
 <br>
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
@@ -173,7 +173,7 @@ python launch_gui.py
 <td width="50%" align="center">
 <h5>📹 Original Input</h5>
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
-<img src="thumbnails/broadcast_input.jpg" alt="Broadcast Input" width="250" style="border-radius: 8px; border: 2px solid #6c757d;"/>
+<img src="gifs/broadcast_input.gif" alt="Broadcast Input" width="250" style="border-radius: 8px; border: 2px solid #6c757d;"/>
 </a>
 <br>
 <span style="font-size: 14px;"><em>Raw broadcast footage</em></span>
@@ -185,7 +185,7 @@ python launch_gui.py
 <td width="50%" align="center">
 <h5>✨ AI Enhanced Result</h5>
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
-<img src="thumbnails/broadcast_enhanced.jpg" alt="Enhanced Result" width="250" style="border-radius: 8px; border: 2px solid #dc3545;"/>
+<img src="gifs/broadcast_enhanced_professional.gif" alt="Enhanced Result" width="250" style="border-radius: 8px; border: 2px solid #dc3545;"/>
 </a>
 <br>
 <span style="font-size: 14px;"><em>Professional enhanced output</em></span>
@@ -197,7 +197,7 @@ python launch_gui.py
 </tr>
 </table>
 
-<p style="margin-top: 15px;"><strong>💡 Click the thumbnails above to download and compare the videos!</strong></p>
+<p style="margin-top: 15px;"><strong>💡 Click the animated previews above to download and compare the videos!</strong></p>
 </div>
 
 #### ⚡ Before vs After Comparison
