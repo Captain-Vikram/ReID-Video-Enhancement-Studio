@@ -160,15 +160,16 @@ data/*.mov
 !data/broadcast.mp4
 !data/tacticam.mp4
 
-# Output directories (generated content)
-!outputs/*.mp4
-!outputs/*.avi
-!outputs/*.mov
-!outputs/**/*.mp4
-!outputs/**/*.avi
-!outputs/**/*.mov
-!outputs/**/temp_*
-!outputs/**/*_temp.*
+# Output directories (generated content - allow enhanced videos)
+!outputs/enhanced_videos/*.mp4
+!outputs/enhanced_videos/*.avi
+!outputs/enhanced_videos/*.mov
+# Exclude large unprocessed videos from other output directories
+outputs/videos/*.mp4
+outputs/videos/*.avi
+outputs/videos/*.mov
+outputs/**/temp_*
+outputs/**/*_temp.*
 temp/
 tmp/
 *.tmp
