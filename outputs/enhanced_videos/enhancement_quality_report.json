@@ -1,0 +1,27 @@
+{
+  "total_frames": 132,
+  "total_detections": 3308,
+  "cameras": [
+    "broadcast",
+    "tacticam"
+  ],
+  "unique_global_ids": 37,
+  "smoothing_parameters": {
+    "smoothing_window": 7,
+    "confidence_window": 7,
+    "prediction_weight": 0.3,
+    "smoothing_weight": 0.7
+  },
+  "quality_metrics": {
+    "broadcast": {
+      "average_confidence": 0.8780038163065911,
+      "confidence_stability": 0.9467722913149613,
+      "avg_detections_per_frame": 9.67741935483871
+    },
+    "tacticam": {
+      "average_confidence": 0.8984178287706972,
+      "confidence_stability": 0.9638156156748342,
+      "avg_detections_per_frame": 15.969696969696969
+    }
+  }
+}

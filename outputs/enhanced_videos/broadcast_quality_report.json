@@ -1,0 +1,38 @@
+{
+  "enhancement_type": "Broadcast-Quality Visual Refinement",
+  "original_data_preserved": true,
+  "total_frames": 132,
+  "total_detections": 3308,
+  "cameras": [
+    "broadcast",
+    "tacticam"
+  ],
+  "unique_global_ids": 37,
+  "enhancement_parameters": {
+    "temporal_smoothing_window": 7,
+    "confidence_smoothing_window": 7,
+    "kalman_blend_ratio": "0.7 smoothed + 0.3 predicted",
+    "crowd_detection_iou": 0.4,
+    "uncertainty_threshold": 0.75
+  },
+  "broadcast_improvements": [
+    "7-frame temporal smoothing for stable bounding boxes",
+    "Kalman filter motion prediction with velocity blending",
+    "Stabilized confidence display prevents flickering",
+    "Crowded region detection with uncertainty labeling",
+    "Professional TV broadcast styling and annotations",
+    "Consistent color mapping across all frames"
+  ],
+  "quality_metrics": {
+    "broadcast": {
+      "average_confidence": 0.8780038163065911,
+      "confidence_stability": 0.9467722913149613,
+      "avg_detections_per_frame": 9.67741935483871
+    },
+    "tacticam": {
+      "average_confidence": 0.8984178287706972,
+      "confidence_stability": 0.9638156156748342,
+      "avg_detections_per_frame": 15.969696969696969
+    }
+  }
+}

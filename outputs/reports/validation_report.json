@@ -1,0 +1,18 @@
+{
+  "validation_timestamp": "C:\\Users\\konth\\Desktop\\project\\computer vision\\FINAL_SUBMISSION",
+  "system_info": {
+    "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "win32",
+    "working_directory": "C:\\Users\\konth\\Desktop\\project\\computer vision\\FINAL_SUBMISSION"
+  },
+  "validation_results": {
+    "overall_status": "PASS",
+    "validations": {
+      "File Structure": true,
+      "Dependencies": true,
+      "Configuration": true,
+      "YOLO Model": true,
+      "Input Videos": true
+    }
+  }
+}
