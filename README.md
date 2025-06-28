@@ -342,8 +342,6 @@ python demo_complete.py
 
 ---
 
-<div align="center">
-
 ## 🙏 **Acknowledgments**
 
 Built with ❤️ using:
