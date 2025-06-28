@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 ReID Video Enhancement Studio
+Copyright (c) 2025 ReID Video Enhancement Studio
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -98,7 +98,7 @@ If you use this software in academic research, please cite:
 ```
 ReID Video Enhancement Studio
 Person Re-identification and Video Enhancement Framework
-Available at: [Your GitHub Repository URL]
+Available at: https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio
 ```
 
 For academic papers, please also cite the underlying algorithms and models used.
