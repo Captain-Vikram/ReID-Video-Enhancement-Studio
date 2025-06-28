@@ -160,6 +160,19 @@ data/*.mov
 !data/broadcast.mp4
 !data/tacticam.mp4
 
+# Output directories (generated content)
+!outputs/*.mp4
+!outputs/*.avi
+!outputs/*.mov
+!outputs/**/*.mp4
+!outputs/**/*.avi
+!outputs/**/*.mov
+!outputs/**/temp_*
+!outputs/**/*_temp.*
+temp/
+tmp/
+*.tmp
+
 # AI Model files (too large for Git)
 models/*.pt
 !models/best.pt
