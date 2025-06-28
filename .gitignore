@@ -161,12 +161,8 @@ data/*.mov
 !data/tacticam.mp4
 
 # Output directories (generated content)
-outputs/*.mp4
 outputs/*.avi
-outputs/*.mov
-outputs/**/*.mp4
 outputs/**/*.avi
-outputs/**/*.mov
 outputs/**/temp_*
 outputs/**/*_temp.*
 temp/
