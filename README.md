@@ -9,6 +9,32 @@
 
 **🚀 Professional football video analysis with cross-camera player mapping and broadcast-quality enhancement**
 
+### 🎬 **Quick Video Demo**
+<div align="center">
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
+<img src="thumbnails/broadcast_input.jpg" alt="Input Video" width="200" style="border-radius: 8px; border: 2px solid #0366d6;"/>
+<br>
+<strong>🎬 Original Broadcast</strong>
+</a>
+</td>
+<td align="center" style="font-size: 30px; padding: 0 20px;">
+➡️
+</td>
+<td align="center">
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
+<img src="thumbnails/broadcast_enhanced.jpg" alt="Enhanced Video" width="200" style="border-radius: 8px; border: 2px solid #dc3545;"/>
+<br>
+<strong>✨ AI Enhanced</strong>
+</a>
+</td>
+</tr>
+</table>
+<p><em>Click the video thumbnails above to download and watch the transformation!</em></p>
+</div>
+
 </div>
 
 ---
@@ -65,23 +91,40 @@ python launch_gui.py
 ### 📹 Original Input Videos
 
 <div align="center">
+
+> **🎥 Sample footage from professional football match analysis**
+
 <table width="100%">
 <tr>
 <td width="50%" align="center">
 <h4>🎬 Broadcast Camera View</h4>
-<video width="90%" controls autoplay muted>
-  <source src="data/broadcast.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<p><em>Wide-angle broadcast perspective</em></p>
+<div style="border: 3px solid #0366d6; border-radius: 12px; padding: 15px; background: linear-gradient(135deg, #f6f8fa 0%, #e1e5e9 100%);">
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
+<img src="thumbnails/broadcast_input.jpg" alt="Broadcast Camera Preview" width="280" style="border-radius: 8px; margin-bottom: 10px;"/>
+</a>
+<br>
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
+<img src="https://img.shields.io/badge/📹_Click_to_Download-Broadcast_Video-0366d6?style=for-the-badge&logo=video" alt="Download Broadcast Video" width="250"/>
+</a>
+<p><em>📐 Wide-angle broadcast perspective</em></p>
+<p><strong>🎯 Features:</strong> Full field view, multiple players visible</p>
+<p><strong>📊 Resolution:</strong> Professional broadcast quality</p>
+</div>
 </td>
 <td width="50%" align="center">
 <h4>📷 Tactical Camera View</h4>
-<video width="90%" controls autoplay muted>
-  <source src="data/tacticam.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<p><em>Close-up tactical analysis view</em></p>
+<div style="border: 3px solid #28a745; border-radius: 12px; padding: 15px; background: linear-gradient(135deg, #f6f8fa 0%, #e1e5e9 100%);">
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/tacticam.mp4">
+<img src="thumbnails/tacticam_input.jpg" alt="Tactical Camera Preview" width="280" style="border-radius: 8px; margin-bottom: 10px;"/>
+</a>
+<br>
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/tacticam.mp4">
+<img src="https://img.shields.io/badge/📹_Click_to_Download-Tactical_Video-28a745?style=for-the-badge&logo=video" alt="Download Tactical Video" width="250"/>
+</a>
+<p><em>🔍 Close-up tactical analysis view</em></p>
+<p><strong>🎯 Features:</strong> Detailed player movements, tactical focus</p>
+<p><strong>📊 Resolution:</strong> High-detail tactical perspective</p>
+</div>
 </td>
 </tr>
 </table>
@@ -93,59 +136,69 @@ python launch_gui.py
 
 <div align="center">
 
-#### 🔄 Strategic Cross-Camera Mapping Results
-*Consistent global player IDs across both camera angles*
+#### 🎯 Final Enhanced Result
+*Professional broadcast-quality enhancement with cross-camera player mapping*
 
-<table width="100%" style="border: 2px solid #e1e5e9; border-radius: 8px;">
-<tr style="background-color: #f6f8fa;">
-<td width="50%" align="center" style="padding: 15px;">
-<strong>📺 Enhanced Broadcast</strong><br>
-<em>Wide-angle with global player IDs</em><br><br>
-<video width="95%" controls autoplay muted loop style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <source src="outputs/videos/broadcast_enhanced_strategic.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</td>
-<td width="50%" align="center" style="padding: 15px;">
-<strong>📹 Enhanced Tactical</strong><br>
-<em>Close-up with synchronized IDs</em><br><br>
-<video width="95%" controls autoplay muted loop style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <source src="outputs/videos/tacticam_enhanced_strategic.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</td>
-</tr>
-</table>
-
-#### 🎯 Professional Broadcast-Quality Enhancement
-*Premium styling with advanced smoothing and professional annotations*
-
-<table width="100%" style="border: 2px solid #e1e5e9; border-radius: 8px;">
-<tr style="background-color: #f6f8fa;">
-<td width="50%" align="center" style="padding: 15px;">
-<strong>🎬 Professional Broadcast Quality</strong><br>
-<em>Kalman filtering + professional styling</em><br><br>
-<video width="95%" controls autoplay muted loop style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <source src="outputs/enhanced_videos/broadcast_enhanced_professional.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</td>
-<td width="50%" align="center" style="padding: 15px;">
-<strong>📺 Broadcast-Ready Tactical</strong><br>
-<em>Studio-quality smooth tracking</em><br><br>
-<video width="95%" controls autoplay muted loop style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <source src="outputs/enhanced_videos/tacticam_enhanced_professional.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</td>
-</tr>
-</table>
-
+<div align="center">
+<div style="border: 3px solid #dc3545; border-radius: 12px; padding: 20px; background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%); max-width: 500px; margin: 0 auto;">
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
+<img src="thumbnails/broadcast_enhanced.jpg" alt="Enhanced Broadcast Preview" width="400" style="border-radius: 8px; margin-bottom: 15px;"/>
+</a>
+<br>
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
+<img src="https://img.shields.io/badge/🎥_Watch_Final_Result-Professional_Enhanced_Video-dc3545?style=for-the-badge&logo=youtube" alt="Watch Final Enhanced Video" width="320"/>
+</a>
+<br><br>
+<p><strong>🚀 Key Features Demonstrated:</strong></p>
+<ul style="text-align: left; max-width: 350px; margin: 0 auto;">
+<li>🔥 <strong>Kalman filtering:</strong> Smooth, stable tracking</li>
+<li>🎨 <strong>Professional styling:</strong> Broadcast-ready annotations</li>
+<li>🌐 <strong>Cross-camera mapping:</strong> Consistent global player IDs</li>
+<li>📈 <strong>Motion prediction:</strong> Reduced detection jitter</li>
+<li>👥 <strong>Crowded regions:</strong> Smart handling of overlapping players</li>
+<li>⚡ <strong>Real-time processing:</strong> 30fps professional quality</li>
+</ul>
+</div>
 </div>
 
 ### 🔍 Key Improvements Demonstrated
 
 <div align="center">
+
+#### 🎥 **Input vs Final Result Comparison**
+
+<div align="center">
+<table width="70%">
+<tr>
+<td width="50%" align="center">
+<h5>📹 Original Input</h5>
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
+<img src="thumbnails/broadcast_input.jpg" alt="Broadcast Input" width="250" style="border-radius: 8px; border: 2px solid #6c757d;"/>
+</a>
+<br>
+<span style="font-size: 14px;"><em>Raw broadcast footage</em></span>
+<br>
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
+<img src="https://img.shields.io/badge/📹_Download-Original_Video-6c757d?style=flat-square" alt="Download Original" width="150"/>
+</a>
+</td>
+<td width="50%" align="center">
+<h5>✨ AI Enhanced Result</h5>
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
+<img src="thumbnails/broadcast_enhanced.jpg" alt="Enhanced Result" width="250" style="border-radius: 8px; border: 2px solid #dc3545;"/>
+</a>
+<br>
+<span style="font-size: 14px;"><em>Professional enhanced output</em></span>
+<br>
+<a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
+<img src="https://img.shields.io/badge/🎥_Download-Enhanced_Video-dc3545?style=flat-square" alt="Download Enhanced" width="150"/>
+</a>
+</td>
+</tr>
+</table>
+
+<p style="margin-top: 15px;"><strong>💡 Click the thumbnails above to download and compare the videos!</strong></p>
+</div>
 
 #### ⚡ Before vs After Comparison
 
