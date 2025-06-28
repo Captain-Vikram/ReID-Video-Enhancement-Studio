@@ -15,7 +15,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4">
-<img src="gifs/broadcast_input.gif" alt="Input Video" width="200" style="border-radius: 8px; border: 2px solid #0366d6;"/>
+<img src="gifs/broadcast.gif" alt="Input Video" width="200" style="border-radius: 8px; border: 2px solid #0366d6;"/>
 <br>
 <strong>🎬 Original Broadcast</strong>
 </a>
