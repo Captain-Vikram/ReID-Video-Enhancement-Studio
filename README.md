@@ -25,7 +25,7 @@
 </td>
 <td align="center">
 <a href="https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4">
-<img src="gifs/broadcast_enhanced_professional.gif" alt="Enhanced Video" width="200" style="border-radius: 8px; border: 2px solid #dc3545;"/>
+<img src="gifs/broadcast_broadcast_quality.gif" alt="Enhanced Video" width="200" style="border-radius: 8px; border: 2px solid #dc3545;"/>
 <br>
 <strong>✨ AI Enhanced</strong>
 </a>
