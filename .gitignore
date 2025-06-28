@@ -1,0 +1,263 @@
+# ReID Video Enhancement Studio - Git Repository
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project-specific ignores
+# Large video files (keep sample data but ignore user uploads)
+data/*.mp4
+data/*.avi
+data/*.mov
+!data/broadcast.mp4
+!data/tacticam.mp4
+
+# Output directories (generated content - allow enhanced videos)
+!outputs/enhanced_videos/*.mp4
+!outputs/enhanced_videos/*.avi
+!outputs/enhanced_videos/*.mov
+outputs/**/temp_*
+outputs/**/*_temp.*
+# Exclude large unprocessed videos
+outputs/videos/*.mp4
+outputs/videos/*.avi
+outputs/videos/*.mov
+temp/
+tmp/
+*.tmp
+
+# AI Model files (too large for Git)
+models/*.pt
+!models/best.pt
+models/*.onnx
+models/*.pb
+models/*.h5
+!models/.gitkeep
+
+# Generated GIFs and demos
+gifs/
+demos/
+*.gif
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+config_local.py
+secrets.py
+.secrets
+*.key
+*.pem
+
+# Streamlit cache
+.streamlit/
+
+# Temporary processing files
+processing_*
+temp_*
+*_temp.*
+
+# User-specific files
+user_videos/
+user_data/
+user_outputs/
+
+# System files
+*.swp
+*.swo
+*~
+
+# Large data files
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.directory
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Package manager locks (keep requirements.txt but ignore lock files)
+poetry.lock
+Pipfile.lock
+conda-lock.yml
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Profiling data
+*.prof
