@@ -33,8 +33,34 @@ This project implements a sophisticated cross-camera player mapping system that 
 
 > **🎯 Experience the power of AI-driven cross-camera player mapping**  
 > See how our system transforms raw football footage into professionally annotated, broadcast-ready content with consistent player tracking across multiple camera angles.
+
+### 📺 How to View the Videos
+
+> **Important**: GitHub doesn't play videos directly in the browser. Here are your options:
+
+#### Option 1: Clone and View Locally (Recommended)
+```bash
+git clone https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio.git
+cd ReID-Video-Enhancement-Studio
+
+# Videos are located in:
+# - data/ (input videos)
+# - outputs/enhanced_videos/ (enhanced results)
+```
+
+#### Option 2: Download Individual Videos
+- 📥 [Download Broadcast Input](https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/broadcast.mp4)
+- 📥 [Download Tactical Input](https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/data/tacticam.mp4)
+- 📥 [Download Enhanced Broadcast](https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/broadcast_enhanced_professional.mp4)
+- 📥 [Download Enhanced Tactical](https://github.com/Captain-Vikram/ReID-Video-Enhancement-Studio/raw/main/outputs/enhanced_videos/tacticam_enhanced_professional.mp4)
+
+#### Option 3: Use the Interactive GUI
+```bash
+python launch_gui.py
+# Upload your own videos and see real-time processing!
+```
 > 
-> **📝 Note**: *If videos don't autoplay in GitHub, download the project and view the videos locally, or use the interactive GUI application for the best experience.*
+> **📝 Note**: *GitHub doesn't play MP4 videos directly. Use the download links above or clone the repository to view videos locally. For the best experience, try the interactive GUI application!*
 
 ### 📹 Original Input Videos
 

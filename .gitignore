@@ -183,9 +183,10 @@ models/*.h5
 !models/.gitkeep
 
 # Generated GIFs and demos
-gifs/
+gifs/demo_*.gif
 demos/
-*.gif
+# Allow preview GIFs for GitHub
+!gifs/*.gif
 
 # Logs and temporary files
 *.log
