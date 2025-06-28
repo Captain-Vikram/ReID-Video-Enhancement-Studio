@@ -53,8 +53,6 @@
 
 ## 🚀 **Key Features**
 
-<div align="center">
-
 <table width="100%">
 <tr>
 <td width="33%" align="center">
@@ -75,13 +73,9 @@
 </tr>
 </table>
 
-</div>
-
 ---
 
 ## 🎥 **Input Sources**
-
-<div align="center">
 
 <table width="100%">
 <tr>
@@ -108,13 +102,9 @@
 </tr>
 </table>
 
-</div>
-
 ---
 
 ## ✨ **Enhancement Results**
-
-<div align="center">
 
 ### 🎯 **Professional Quality Output**
 
@@ -164,13 +154,9 @@
 </tbody>
 </table>
 
-</div>
-
 ---
 
 ## 📊 **Performance Stats**
-
-<div align="center">
 
 <table style="border: none; margin: 20px auto;">
 <tr>
@@ -201,13 +187,9 @@
 </tr>
 </table>
 
-</div>
-
 ---
 
 ## 🔧 **Quick Setup**
-
-<div align="center">
 
 ### 🎬 **GUI Application** (Recommended)
 
@@ -244,8 +226,6 @@ pip install -r requirements.txt
 python demo_complete.py
 ```
 
-</div>
-
 ---
 
 ## 📁 **Project Structure**
@@ -278,8 +258,6 @@ python demo_complete.py
 
 ## 🎯 **Technical Approach**
 
-<div align="center">
-
 <table width="100%">
 <tr>
 <td width="25%" align="center">
@@ -309,13 +287,9 @@ python demo_complete.py
 </tr>
 </table>
 
-</div>
-
 ---
 
 ## 📚 **Documentation**
-
-<div align="center">
 
 | 📖 Document | 📝 Description |
 |-------------|----------------|
@@ -324,13 +298,9 @@ python demo_complete.py
 | **[Sample Data Guide](sample_data/README_SAMPLE.md)** | Testing instructions with sample data |
 | **[Quick Start Guide](QUICK_START.md)** | Minimal setup and launch instructions |
 
-</div>
-
 ---
 
 ## 🎯 **Expected Outputs**
-
-<div align="center">
 
 ### 📹 **Video Files**
 - `outputs/enhanced_videos/broadcast_enhanced_professional.mp4`
@@ -345,13 +315,9 @@ python demo_complete.py
 - Cross-camera matching statistics
 - Enhancement performance analysis
 
-</div>
-
 ---
 
 ## 🔮 **Future Enhancements**
-
-<div align="center">
 
 <table width="90%">
 <tr>
@@ -373,8 +339,6 @@ python demo_complete.py
 </td>
 </tr>
 </table>
-
-</div>
 
 ---
 
