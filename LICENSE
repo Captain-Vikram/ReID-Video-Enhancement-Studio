@@ -1,0 +1,117 @@
+MIT License
+
+Copyright (c) 2024 ReID Video Enhancement Studio
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Licenses
+
+This project includes or depends on the following third-party software:
+
+### YOLO (You Only Look Once)
+- License: GPL-3.0 License
+- Copyright: Ultralytics
+- Website: https://github.com/ultralytics/ultralytics
+
+### OpenCV
+- License: Apache License 2.0
+- Copyright: OpenCV team
+- Website: https://opencv.org/license/
+
+### PyTorch
+- License: BSD-3-Clause License
+- Copyright: PyTorch Contributors
+- Website: https://github.com/pytorch/pytorch
+
+### Streamlit
+- License: Apache License 2.0
+- Copyright: Streamlit Inc.
+- Website: https://github.com/streamlit/streamlit
+
+### NumPy
+- License: BSD-3-Clause License
+- Copyright: NumPy Developers
+- Website: https://numpy.org/doc/stable/license.html
+
+### Other Dependencies
+Please refer to the requirements.txt file for a complete list of dependencies.
+Each dependency is subject to its own license terms.
+
+---
+
+## Model Licenses
+
+Pre-trained models used in this project may have different licenses:
+
+- **YOLO Models**: Subject to GPL-3.0 license terms
+- **Custom Models**: Licensed under this MIT license
+- **Third-party Models**: Subject to their respective licenses
+
+Users are responsible for ensuring compliance with all applicable licenses
+when using pre-trained models.
+
+---
+
+## Data Licenses
+
+Sample data provided with this project:
+
+- **Sample Videos**: Licensed under Creative Commons or fair use
+- **Generated Content**: Licensed under this MIT license
+- **User Data**: Users retain all rights to their input data
+
+---
+
+## Commercial Use
+
+This software is free for commercial use under the MIT license terms.
+However, please note:
+
+1. Some dependencies may have different licensing terms
+2. Pre-trained models may have restrictions on commercial use
+3. You are responsible for ensuring compliance with all licenses
+
+---
+
+## Attribution
+
+If you use this software in academic research, please cite:
+
+```
+ReID Video Enhancement Studio
+Person Re-identification and Video Enhancement Framework
+Available at: [Your GitHub Repository URL]
+```
+
+For academic papers, please also cite the underlying algorithms and models used.
+
+---
+
+## Disclaimer
+
+This software is provided for research and educational purposes.
+The authors are not responsible for any misuse or damages arising
+from the use of this software.
+
+Users are responsible for:
+- Ensuring compliance with applicable laws and regulations
+- Respecting privacy rights when processing video data
+- Following ethical guidelines for AI and computer vision applications

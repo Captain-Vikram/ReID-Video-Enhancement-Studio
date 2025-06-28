@@ -1,0 +1,15 @@
+# This file ensures the models directory is tracked in Git
+# 
+# The models directory contains AI model files that are typically:
+# - Too large for Git (excluded in .gitignore)  
+# - Downloaded separately or trained by users
+# - Essential for the application structure
+#
+# Place your model files here:
+# - best.pt (YOLO model for person detection)
+# - custom_model.pt (your trained models)
+# - *.onnx (ONNX format models)
+# - *.h5 (Keras/TensorFlow models)
+#
+# Note: Large model files should be stored using Git LFS
+# or downloaded via setup scripts

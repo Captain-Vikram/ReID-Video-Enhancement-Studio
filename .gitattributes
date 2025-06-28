@@ -1,0 +1,107 @@
+# ReID Video Enhancement Studio - Git Attributes Configuration
+
+# Set default behavior for line endings
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.xml text eol=lf
+*.svg text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Declare files that will always have LF line endings on checkout
+Makefile text eol=lf
+*.sh text eol=lf
+
+# Denote all files that are truly binary and should not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.avi binary
+*.mkv binary
+*.wmv binary
+*.flv binary
+*.webm binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.gz binary
+*.tar binary
+*.rar binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Model files (binary)
+*.pt binary
+*.pth binary
+*.onnx binary
+*.pb binary
+*.h5 binary
+*.pkl binary
+*.pickle binary
+
+# Database files (binary)
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# Archive and compressed files
+*.tar.gz binary
+*.tgz binary
+*.tar.xz binary
+*.txz binary
+
+# Fonts
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+
+# Audio files
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.flac binary
+
+# Large files that should use Git LFS (if enabled)
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+
+# Documentation
+*.md linguist-documentation
+*.txt linguist-documentation
+
+# Generated files
+src/__pycache__/ linguist-generated
+outputs/ linguist-generated
+*.pyc linguist-generated
+
+# Language detection
+*.py linguist-language=Python
+*.md linguist-language=Markdown
+*.bat linguist-language=Batchfile
+*.sh linguist-language=Shell
